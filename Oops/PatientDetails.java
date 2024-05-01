@@ -17,7 +17,7 @@ public class PatientDetails {
 		patientList.put(103, "Akshay");
 
 		// Print the contents of the patientList before any manipulation
-		System.out.println("Before manipulation: ");
+		System.out.println("Before manipulation:");
 
 		for (Map.Entry<Integer, String> mapList : patientList.entrySet()) {
 			System.out.println(mapList.getKey() + " " + mapList.getValue());
