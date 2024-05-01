@@ -22,22 +22,22 @@ class Printer {
 
 	// Method to print a character
 	public void print(char character) {
-		System.out.println("Printing character: " + character);
+		System.out.println("Printing character:" + character);
 	}
 
 	// Method to print a floating point number
 	public void print(float number) {
-		System.out.println("Printing float number: " + number);
+		System.out.println("Printing float number:" + number);
 	}
 
 	// Method to print an integer
 	public void print(int number) {
-		System.out.println("Printing number: " + number);
+		System.out.println("Printing number:" + number);
 	}
 
 	// Method to print a string
 	public void print(String message) {
-		System.out.println("Printing message: " + message);
+		System.out.println("Printing message:" + message);
 	}
 
 }
