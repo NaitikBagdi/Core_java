@@ -29,7 +29,7 @@ public class RemoveDuplicateElement {
 		System.out.println(stringList);
 
 		// To remove duplicate elements from a list, you can use a set, which automatically removes duplicates.
-		Set<String> unicList = new HashSet<String>(stringList);
+		Set<String> uniqueList = new HashSet<String>(stringList);
 		System.out.println(unicList);
 	}
 
