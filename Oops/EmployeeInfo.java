@@ -41,8 +41,8 @@ class Employee {
 	 * It include the employee id and employee name.
 	 */
 	public void employeeDetails() {
-		System.out.println("Employee id: " + employeeId);
-		System.out.println("Employee name: " + employeeName);
+		System.out.println("Employee id:" + employeeId);
+		System.out.println("Employee name:" + employeeName);
 	}
 
 }
@@ -73,7 +73,7 @@ class Branch extends Employee {
 	 * Print the branch name.
 	 */
 	public void branchDetails() {
-		System.out.print("Branch name: " + branchName);
+		System.out.print("Branch name:" + branchName);
 	}
 
 }
