@@ -27,7 +27,7 @@ public class CreateAndWriteFile {
 		try {
 			File createFile = new File("MyDocument.txt");
 			if (createFile.createNewFile()) {
-				System.out.println("File create successful: " + createFile.getName());
+				System.out.println("File create successful:" + createFile.getName());
 			} else {
 				System.out.println("File already exists.");
 			}
@@ -45,13 +45,13 @@ public class CreateAndWriteFile {
 	public void writeFile() {
 		try {
 			FileWriter fileWriter = new FileWriter("MyDocument.txt");
-			fileWriter.write("Name: Naitik Bagdi ");
+			fileWriter.write("Name: Naitik Bagdi");
 			fileWriter.write("\nAge: 23");
 			fileWriter.write("\nLocation: Ahmedabad.");
 			fileWriter.close(); // Close the file writer object
-			System.out.println("Successfully wrote to the file ");
+			System.out.println("Successfully wrote to the file");
 		} catch (IOException inputOutputException) {
-			System.out.println("File writer exception occourred ");
+			System.out.println("File writer exception occourred");
 		}
 	}
 
@@ -64,9 +64,9 @@ public class CreateAndWriteFile {
 		try {
 			File deleteFile = new File("MyDocument.txt");
 			if (deleteFile.delete()) {
-				System.out.println("Delete the file: " + deleteFile.getName());
+				System.out.println("Delete the file:" + deleteFile.getName());
 			} else {
-				System.out.println("Faild to delete the file. ");
+				System.out.println("Faild to delete the file.");
 			}
 		} finally {
 			System.out.println("Done");
