@@ -15,9 +15,9 @@ public class WrapperClasses {
 		if (firstNumber.compareTo(secondNumber) == 0) {
 			System.out.println("Both value are equal ");
 		} else if (firstNumber.compareTo(secondNumber) > 0) {
-			System.out.println("First number is greater than second number ");
+			System.out.println("First number is greater than second number");
 		} else {
-			System.out.println("Second number is greater than first number ");
+			System.out.println("Second number is greater than first number");
 		}
 	}
 
