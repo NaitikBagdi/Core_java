@@ -29,7 +29,7 @@ public class CompanyStructure {
 class Employee {
 
 	public void employeeDetails() {
-		System.out.println("Employee class ");
+		System.out.println("Employee class");
 	}
 
 }
@@ -41,7 +41,7 @@ class Employee {
 class Manager extends Employee {
 
 	public void managerDetails() {
-		System.out.println("Manager class. ");
+		System.out.println("Manager class.");
 	}
 
 }
@@ -53,7 +53,7 @@ class Manager extends Employee {
 class TeamLead extends Employee {
 
 	public void leadTeam() {
-		System.out.println("Team lead class. ");
+		System.out.println("Team lead class.");
 	}
 
 }
@@ -67,7 +67,7 @@ class TeamLead extends Employee {
 class SeniorManager extends Manager {
 
 	public void seniorManagerDetails() {
-		System.out.println("Senior manager class. ");
+		System.out.println("Senior manager class.");
 	}
 
 }
