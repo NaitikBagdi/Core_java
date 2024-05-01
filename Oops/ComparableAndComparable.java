@@ -18,15 +18,15 @@ public class ComparableAndComparator {
 		employeeList.add(new Employee(105, "Dhiraj", 7865434567l));
 		employeeList.add(new Employee(103, "Vishal", 6589946554l));
 
-		System.out.println("Sorting by comparable: ");
-		System.out.println("Before sorting: " + employeeList);
+		System.out.println("Sorting by comparable:");
+		System.out.println("Before sorting:" + employeeList);
 		Collections.sort(employeeList); // Sort by comparable
-		System.out.println("After sorting: " + employeeList);
+		System.out.println("After sorting:" + employeeList);
 
-		System.out.println("Sorting by comparator: ");
-		System.out.println("Before sorting: " + employeeList);
+		System.out.println("Sorting by comparator:");
+		System.out.println("Before sorting:" + employeeList);
 		Collections.sort(employeeList, new Employees()); // Sort by comparator
-		System.out.println("After sorting: " + employeeList);
+		System.out.println("After sorting:" + employeeList);
 	}
 
 }
