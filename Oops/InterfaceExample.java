@@ -9,14 +9,14 @@ public class InterfaceExample {
 
 	public static void main(String[] args) {
 		Rectangle rectangle = new Rectangle(10, 20);
-		System.out.println("Rectangle: ");
-		System.out.println("Area of rectangle: " + rectangle.calculateArea());
-		System.out.println("Perimeter of rectangle: " + rectangle.calculatePerimeter());
+		System.out.println("Rectangle:");
+		System.out.println("Area of rectangle:" + rectangle.calculateArea());
+		System.out.println("Perimeter of rectangle:" + rectangle.calculatePerimeter());
 
 		Circle circle = new Circle(15);
-		System.out.println("Circle: ");
-		System.out.println("Area of circle: " + circle.calculateArea());
-		System.out.println("Perimeter of circle: " + circle.calculatePerimeter());
+		System.out.println("Circle:");
+		System.out.println("Area of circle:" + circle.calculateArea());
+		System.out.println("Perimeter of circle:" + circle.calculatePerimeter());
 	}
 
 }
