@@ -11,11 +11,11 @@ public class VehicleManagementSystem {
 		Car car = new Car("Toyota", "Camry", 2020,"Gasoline", 4);
 		Truck truck = new Truck("Ford", "F-150", 2024, 2.7, 2);
 
-		System.out.println("Car information ");
+		System.out.println("Car information");
 		car.displayCarInformation();
 		System.out.println();
 
-		System.out.println("Truck information ");
+		System.out.println("Truck information");
 		truck.displayTruckInformation();
 	}
 
@@ -49,9 +49,9 @@ class Vehicle {
 	 * It include the vehicle model, make and manufacture year.
 	 */
 	public void displayVehicleInformation() {
-		System.out.println("Model name: " + model);
-		System.out.println("Make: " + make);
-		System.out.println("Manufacture year: " + year);
+		System.out.println("Model name:" + model);
+		System.out.println("Make:" + make);
+		System.out.println("Manufacture year:" + year);
 	}
 
 }
@@ -86,8 +86,8 @@ class Car extends Vehicle {
 	 */
 	public void displayCarInformation() {
 		super.displayVehicleInformation();
-		System.out.println("Fuel type: " + fuelType);
-		System.out.println("Number of doors: " + numberOfDoors);
+		System.out.println("Fuel type:" + fuelType);
+		System.out.println("Number of doors:" + numberOfDoors);
 	}
 
 }
@@ -122,8 +122,8 @@ class Truck extends Vehicle {
 	 */
 	public void displayTruckInformation() {
 		super.displayVehicleInformation();
-		System.out.println("Maximum payload: " + maxPayload);
-		System.out.println("Number of axles: " + numAxles);
+		System.out.println("Maximum payload:" + maxPayload);
+		System.out.println("Number of axles:" + numAxles);
 	}
 
 }
