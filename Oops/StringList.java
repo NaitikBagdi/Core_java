@@ -18,7 +18,7 @@ public class StringList {
 		stringList.add("Pratapgarh");
 		stringList.add("Ahmedabad");
 		stringList.add("Jaipur");
-		System.out.println("Before add element : " + stringList);
+		System.out.println("Before add element:" + stringList);
 
 		 // Add new element in list
 		stringList.add("Indore");
