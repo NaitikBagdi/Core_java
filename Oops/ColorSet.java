@@ -28,7 +28,7 @@ public class ColorSet {
 		 */
 		Set<Integer> unionData = new HashSet<Integer>(naturalNumberSet);
 		unionData.addAll(numberSet);
-		System.out.print("Union of natural number and number set is: ");
+		System.out.print("Union of natural number and number set is:");
 		System.out.println(unionData);
 
 		/**
@@ -37,7 +37,7 @@ public class ColorSet {
 		 */
 		Set<Integer> insertionData = new HashSet<Integer>(naturalNumberSet);
 		insertionData.retainAll(numberSet);
-		System.out.print("Insertion of natural number and number set is: ");
+		System.out.print("Insertion of natural number and number set is:");
 		System.out.println(insertionData);
 
 		/**
@@ -47,7 +47,7 @@ public class ColorSet {
 		 */
 		Set<Integer> differenceData = new HashSet<Integer>(naturalNumberSet);
 		differenceData.removeAll(numberSet);
-		System.out.print("Difference of natural number and number set is: ");
+		System.out.print("Difference of natural number and number set is:");
 		System.out.println(differenceData);
 
 		/**
@@ -64,9 +64,9 @@ public class ColorSet {
 		 * Additionally, it adds the new element.
 		 */
 		Set<String> colorOfSet = new HashSet<String>(colorSet);
-		System.out.println("Color of set: " + colorOfSet);
+		System.out.println("Color of set:" + colorOfSet);
 		colorOfSet.add("Green");
-		System.out.println("After adding new elelment color of set is: " + colorOfSet);
+		System.out.println("After adding new elelment color of set is:" + colorOfSet);
 	}
 
 }
