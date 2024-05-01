@@ -16,7 +16,7 @@ public class StaticFeature {
 	 * In static block change the value of static variable.
 	 */
 	static {
-		System.out.println("Inside the static block ");
+		System.out.println("Inside the static block");
 		staticNumber = 10;
 	}
 
@@ -25,8 +25,8 @@ public class StaticFeature {
 	 * Displays the value of the static variable staticNumber.
 	 */
 	public static void staticMethod() {
-		System.out.println("Inside the static method ");
-		System.out.println("Static variable: " + staticNumber);
+		System.out.println("Inside the static method");
+		System.out.println("Static variable:" + staticNumber);
 	}
 
 	public static void main(String[] args) {
