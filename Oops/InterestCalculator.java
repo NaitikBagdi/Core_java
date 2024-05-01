@@ -10,13 +10,13 @@ public class InterestCalculator {
 	public static void main(String[] args) {
 		Bank bank;
 		bank = new ICICI();
-		System.out.println("ICICI bank rate of interest: " + bank.rateOfInterest());
+		System.out.println("ICICI bank rate of interest:" + bank.rateOfInterest());
 
 		bank = new SBI();
-		System.out.println("SBI bank rate of interest: " + bank.rateOfInterest());
+		System.out.println("SBI bank rate of interest:" + bank.rateOfInterest());
 
 		bank = new AXIS();
-		System.out.println("AXIS bank rate of interest: " + bank.rateOfInterest());
+		System.out.println("AXIS bank rate of interest:" + bank.rateOfInterest());
 	}
 
 }
