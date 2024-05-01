@@ -12,7 +12,7 @@ public class Constructor {
 	private float width;
 
 	Constructor() {
-		System.out.println("Area of rectangle is: " + areaOfRectangle());
+		System.out.println("Area of rectangle is:" + areaOfRectangle());
 	}
 
 	/**
@@ -37,7 +37,7 @@ public class Constructor {
 
 	public static void main(String[] args) {
 		Constructor constructor = new Constructor(10.f, 9.5f);
-		System.out.println("Area of rectangle is: " + constructor.areaOfRectangle());
+		System.out.println("Area of rectangle is:" + constructor.areaOfRectangle());
 	}
 
 }
