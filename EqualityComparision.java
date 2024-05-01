@@ -24,8 +24,8 @@ public class EqualityComparision {
 	 * @param lastName The second string to be compared.
 	 */
 	public void stringComparison(String firstName, String lastName) {
-		System.out.println("Two string comparison using .equls: " + firstName.equals(lastName));
-		System.out.println("Two string comparison using ==:  " + (firstName == lastName));
+		System.out.println("Two string comparison using .equls:" + firstName.equals(lastName));
+		System.out.println("Two string comparison using ==:" + (firstName == lastName));
 	}
 
 	/**
@@ -35,8 +35,8 @@ public class EqualityComparision {
 	 * @param id  The second integer to be compared.
 	 */
 	public void integerComparison(Integer age, Integer id) {
-		System.out.println("Two integer comparison using .equls: " + age.equals(id));
-		System.out.println("Two integer comparison using ==: " + (age == id));
+		System.out.println("Two integer comparison using .equls:" + age.equals(id));
+		System.out.println("Two integer comparison using ==:" + (age == id));
 	}
 
 	/**
@@ -47,8 +47,8 @@ public class EqualityComparision {
 		BigDecimal firstDecimal = new BigDecimal(10.55);
 		BigDecimal secondDecimal = new BigDecimal(10.55);
 
-		System.out.println("Two bigdecimal comparison using .equls: " + firstDecimal.equals(secondDecimal));
-		System.out.println("Two bigdecimal comparison using ==: " + (firstDecimal == secondDecimal));
+		System.out.println("Two bigdecimal comparison using .equls:" + firstDecimal.equals(secondDecimal));
+		System.out.println("Two bigdecimal comparison using ==:" + (firstDecimal == secondDecimal));
 	}
 
 }
