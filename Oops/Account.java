@@ -15,9 +15,9 @@ public class Account {
 		createAccount.setName("Naitik Bagdi");
 		createAccount.setAmount(50000);
 
-		System.out.println("Account number: " + createAccount.getAccountNumber());
-		System.out.println("Account holder name: " + createAccount.getName());
-		System.out.println("Amount: "+ createAccount.getAmount());
+		System.out.println("Account number:" + createAccount.getAccountNumber());
+		System.out.println("Account holder name:" + createAccount.getName());
+		System.out.println("Amount:"+ createAccount.getAmount());
 	}
 
 }
