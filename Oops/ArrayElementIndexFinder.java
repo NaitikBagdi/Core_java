@@ -21,14 +21,14 @@ public class ArrayElementIndexFinder {
 		 */
 		for (int startPoint = 0; startPoint < arrayList.length; startPoint++) {
 			if (arrayList[startPoint] == findList) {
-				System.out.println(findList + " is index of " + startPoint);
+				System.out.println(findList + "is index of" + startPoint);
 				result = true;
 			}
 		}
 
 		// If result is still false, the target element was not found in the list.
 		if (!result) {
-			System.out.println("Value is not exist in list ");
+			System.out.println("Value is not exist in list");
 		}
 	}
 
