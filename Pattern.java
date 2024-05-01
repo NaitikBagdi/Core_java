@@ -16,7 +16,7 @@ public class Pattern {
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Enter row number: ");
+		System.out.print("Enter row number:");
 		int rowNumber = scanner.nextInt();
 		// Outer for loop.
 		for (int row = 1; row <= rowNumber; row++) {
