@@ -39,8 +39,8 @@ class Vehicle {
 	 * This includes the vehicle name and the year of manufacture.
 	 */
 	public void printVehicleDetails() {
-		System.out.println("Vehicle name: " + this.vehicleName);
-		System.out.println("Manufacturing year: " + this.year);
+		System.out.println("Vehicle name:" + this.vehicleName);
+		System.out.println("Manufacturing year:" + this.year);
 	}
 
 }
@@ -73,7 +73,7 @@ class Car extends Vehicle {
 	 */
 	public void printCarDetails() {
 		super.printVehicleDetails();
-		System.out.println("Model name: " + this.modelName);
+		System.out.println("Model name:" + this.modelName);
 	}
 
 }
