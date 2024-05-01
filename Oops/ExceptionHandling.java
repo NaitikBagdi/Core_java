@@ -17,7 +17,7 @@ public class ExceptionHandling {
 		try {
 			exceptionHanding.performSafeDivision();
 		} catch (ArithmeticException e) {
-			System.out.println("Exception occurred: " + e);
+			System.out.println("Exception occurred:" + e);
 		} finally {
 			System.out.println("Given program is exception handling.");
 		}
@@ -33,7 +33,7 @@ public class ExceptionHandling {
 		int firstNumber = 10;
 		int secondNumber = 0;
 		if (secondNumber == 0) {
-			throw new ArithmeticException("AirthmeticException ");
+			throw new ArithmeticException("AirthmeticException");
 		}
 		System.out.println(firstNumber / secondNumber);
 	}
