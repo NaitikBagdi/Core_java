@@ -34,8 +34,8 @@ class Person {
 
 	// This method describe about person
 	public void personDetails() {
-		System.out.println("Name: " + name);
-		System.out.println("Age: " + age);
+		System.out.println("Name:" + name);
+		System.out.println("Age:" + age);
 	}
 
 }
@@ -63,7 +63,7 @@ class Student extends Person {
 	// The method print details of students
 	public void studentDetails() {
 		super.personDetails();
-		System.out.println("Student id: " + studentId );
+		System.out.println("Student id:" + studentId );
 	}
 
 }
@@ -92,7 +92,7 @@ class CollegeStudent extends Student {
 	// The method print about the college name
 	public void collegeDetails() {
 		super.studentDetails();
-		System.out.println("College Name: " + collegeName);
+		System.out.println("College Name:" + collegeName);
 	}
 
 }
