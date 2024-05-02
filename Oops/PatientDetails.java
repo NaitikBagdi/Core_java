@@ -4,7 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This class describe the map interface.
+ * This class demonstrates the use of the Map interface to store patient details.
+ * It creates a map of patient IDs to patient names and performs various operations like addition, removal, and modification of entries.
  * 
  * @author Naitik
  */
