@@ -73,7 +73,7 @@ class SBI extends Bank {
  * The class represents axis bank and defines the rate of interest.
  * It extends the bank class.
  */
-class AXIS  extends Bank {
+class AXIS extends Bank {
 
 	/**
 	 * The overridden method find the axis bank rate of interest.
