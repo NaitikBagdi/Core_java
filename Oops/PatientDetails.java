@@ -28,7 +28,7 @@ public class PatientDetails {
 		patientList.put(101, "Mukesh"); // Add new element in list
 		patientList.replace(102, "Abhishek"); // Replace specific key
 		System.out.println(patientList.containsKey(103)); // Contains key check given key is exist or not
-		System.out.println("After manipulation: ");
+		System.out.println("After manipulation:");
 
 		// Iterate using entry set.
 		for (Map.Entry<Integer, String> entry : patientList.entrySet()) {
