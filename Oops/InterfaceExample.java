@@ -1,7 +1,8 @@
 package oopsconcept.interfaces;
 
 /**
- * The class is describe interface.
+ * This class demonstrates the usage of interfaces for calculating area and perimeter of shapes.
+ * It contains a main method that creates instances of Rectangle and Circle classes to calculate their respective areas and perimeters.
  * 
  * @author Naitik
  */
