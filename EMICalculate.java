@@ -8,8 +8,8 @@ package corejava.com;
 public class EmiCalculate {
 
 	public static void main(String[] args) {
-		EmiCalculate EmiCalculate = new EmiCalculate();
-		System.out.println(EmiCalculate.EmiCalculate(2000, 20, 2));
+		EmiCalculate emiCalculate = new EmiCalculate();
+		System.out.println(emiCalculate.emiCalculate(2000, 20, 2));
 	}
 
 	/**
@@ -21,7 +21,7 @@ public class EmiCalculate {
 	 * @param time A int time representing a year of value.
 	 * @return double The calculate emi.
 	 */
-	public double EmiCalculate(double amount, double rate, int time) {
+	public double emiCalculate(double amount, double rate, int time) {
 		rate = rate / (12 * 100);
 		time = time * 12;
 		double emi = (amount * rate * Math.pow(1 + rate, time)) / (Math.pow(1 + rate, time) - 1);
